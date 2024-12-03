@@ -67,9 +67,7 @@
 
     
     function shootBullet() {
-      if (dino.y + dino.height > 220) {
-        return; 
-      }
+    
       bullets.push({ x: dino.x + dino.width, y: dino.y + 20, width: 10, height: 5 });
     }
 
